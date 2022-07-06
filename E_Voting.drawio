@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T13:34:48.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" version="20.0.4" etag="kPBOwmDwYs0Q-RSh47GZ" type="github"><diagram id="R7e9KVuFXxSIgpA9V-PT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-06T14:11:18.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" etag="4Sa00IGy7likBgZGFhQI" version="20.0.4" type="github">
+  <diagram id="R7e9KVuFXxSIgpA9V-PT" name="Page-1">
+    <mxGraphModel dx="865" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="66" y="274" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Voter Login:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Authenticate Credentials using OTP.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2.Retrieve Voting District&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3. Return corresponding smart contract&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="68" y="276.25" width="119" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-3" value="" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="179" y="89" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="273" as="sourcePoint" />
+            <mxPoint x="201" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-6" value="&lt;b&gt;Verify Credentials&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;rotation=-50;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-7" value="&lt;b&gt;Government Database&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="52" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-8" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="233.5" y="479" width="34" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="231" y="496" as="sourcePoint" />
+            <mxPoint x="102" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-10" value="&lt;b&gt;Give Credentials&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;rotation=40;" vertex="1" parent="1">
+          <mxGeometry x="134" y="427" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-11" value="&lt;span&gt;Smart Contract&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;Inputs:&lt;br style=&quot;&quot;&gt;1. District&lt;br style=&quot;&quot;&gt;2. List of Candidates" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="299" y="280" width="109" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="344" as="sourcePoint" />
+            <mxPoint x="292" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-14" value="&lt;b&gt;Voting District&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="203" y="315" width="71" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-15" value="&lt;b&gt;Voter&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="509" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-16" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="315" y="378" width="65" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-17" value="&lt;b&gt;Vote&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="452" width="24" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;entryX=0.333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_CAl6fARyQbW0v1_F7Wb-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="503" as="sourcePoint" />
+            <mxPoint x="367" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-19" value="Sign Vote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;rotation=-55;" vertex="1" parent="1">
+          <mxGeometry x="584" y="479" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-20" value="&lt;b&gt;Select&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="335.5" y="384" width="24" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="_CAl6fARyQbW0v1_F7Wb-24" value="Select Candidate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;rotation=-55;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="433" width="88" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
